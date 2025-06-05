@@ -193,4 +193,4 @@ cython_debug/
 .cursorignore
 .cursorindexingignore
 
-./juegos_azar_env/*
+juegos_azar_env/*
