@@ -1,5 +1,3 @@
-# test/test_dados.py
-
 import pytest
 from src.dados import Dados
 
