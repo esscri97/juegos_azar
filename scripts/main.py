@@ -1,5 +1,6 @@
 from src.dados import Dados
 from src.cartas import Cartas
+from src.adivinanza import Adivinanza
 
 if __name__ == '__main__':
     print('JUGANDO A LOS DADOS:')
@@ -17,3 +18,9 @@ if __name__ == '__main__':
     print('Robando...')
     baraja_espanola.robar(14)
     print(baraja_espanola.baraja)
+
+    print('########################################')
+    print('JUGANDO A LA ADIVINANZA:')
+    
+    adivinanza = Adivinanza(0, 100)
+    adivinanza.jugar()
