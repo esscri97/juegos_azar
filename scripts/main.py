@@ -1,6 +1,6 @@
-from src.dados import Dados
-from src.cartas import Cartas
-from src.adivinanza import Adivinanza
+from src.juegos_azar.dados import Dados
+from src.juegos_azar.cartas import Cartas
+from src.juegos_azar.adivinanza import Adivinanza
 
 if __name__ == '__main__':
     print('JUGANDO A LOS DADOS:')

@@ -1,5 +1,5 @@
 import pytest
-from src.dados import Dados
+from src.juegos_azar.dados import Dados
 
 def test_crear_dado_valido():
     dado = Dados(6)
