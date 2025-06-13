@@ -1,6 +1,15 @@
 import random
 
 class Adivinanza:
+    """
+    Clase para jugar a adivinar un número aleatorio dentro de un rango.
+    
+    Atributos:
+        minimo (int): Valor mínimo del rango.
+        maximo (int): Valor máximo del rango.
+        intentos (int): Intentos disponibles para adivinar.
+        numero_secreto (int): Número generado aleatoriamente a adivinar.
+    """
     def __init__(self, minimo: int = 1, maximo: int = 100):
         if minimo > maximo:
             raise ValueError(f"El valor mínimo ({minimo}) no puede ser mayor que el máximo ({maximo}).")
@@ -10,6 +19,12 @@ class Adivinanza:
         self.numero_secreto = random.randint(self.minimo, self.maximo)
 
     def jugar(self):
+        """
+        Inicia el juego de adivinar el número.
+
+        El jugador tiene un número limitado de intentos para adivinar
+        el número secreto. Se dan pistas sobre si el intento es mayor o menor.
+        """
         print(f"Adivina el número entre {self.minimo} y {self.maximo}")
 
         while self.intentos > 0:

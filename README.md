@@ -34,6 +34,20 @@ Este proyecto contiene varios juegos simples de azar para practicar Python y div
     pip install -r requirements.txt
     ```
 
+### Instalación editable para desarrollo o uso directo en tu proyecto
+
+Si quieres usar la librería directamente desde tu repositorio local y que los cambios que hagas se reflejen automáticamente (por ejemplo, si estás desarrollando o probando), puedes instalarla en modo editable con:
+
+(*Debes tener la librería en el mismo directorio que está tu proyecto*)
+
+```bash
+cd ../juegos_azar
+pip install -e .
+
+# También puedes hacer: pip install -e ../juegos_azar
+```
+Esto instalará la librería desde la carpeta actual (.) y permitirá que las modificaciones que hagas en el código fuente se reflejen inmediatamente sin necesidad de reinstalar.
+
 ## Uso
 
 Ejemplos básicos para cada juego:

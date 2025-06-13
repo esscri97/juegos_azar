@@ -5,7 +5,16 @@ setup(
     version="0.1.0",
     packages=find_packages(where="src"),
     package_dir={"": "src"},
-    install_requires=[],
+    install_requires=[
+        "colorama==0.4.6",
+        "iniconfig==2.1.0",
+        "numpy==2.2.6",
+        "packaging==25.0",
+        "pluggy==1.6.0",
+        "Pygments==2.19.1",
+        "pytest==8.4.0",
+        "setuptools==80.9.0"
+        ],
     author="David Escrivá",
     author_email="david97escriva@gmail.com",
     description="Una librería con juegos de azar escritos en Python",
@@ -18,4 +27,4 @@ setup(
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.10",
-) 
+)

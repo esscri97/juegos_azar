@@ -1,5 +1,5 @@
 import pytest
-from src.cartas import Cartas
+from src.juegos_azar.cartas import Cartas
 
 def test_crear_baraja_valido():
     baraja_poker = Cartas('francesa')

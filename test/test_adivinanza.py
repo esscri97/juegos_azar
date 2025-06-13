@@ -1,7 +1,7 @@
 import pytest
 import random
 from unittest.mock import patch
-from src.adivinanza import Adivinanza
+from src.juegos_azar.adivinanza import Adivinanza
 
 def test_rango_personalizado():
     juego = Adivinanza(minimo=10, maximo=50)
