@@ -43,6 +43,8 @@ Si quieres usar la librería directamente desde tu repositorio local y que los c
 ```bash
 cd ../juegos_azar
 pip install -e .
+
+# También puedes hacer: pip install -e ../juegos_azar
 ```
 Esto instalará la librería desde la carpeta actual (.) y permitirá que las modificaciones que hagas en el código fuente se reflejen inmediatamente sin necesidad de reinstalar.
 
